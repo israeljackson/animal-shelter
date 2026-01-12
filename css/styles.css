@@ -47,3 +47,63 @@ button{
   font-weight: bold;
   cursor: pointer;
 }
+
+.hero-container{
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.hero-desc{
+  flex: 1.2;
+  color: #F4F6F8;
+}
+
+.img-visual{
+  flex: 1;
+}
+
+.hero{
+  background-color: #1f3a4a;
+  padding: 48px;
+}
+
+.hero-badge{
+  color: #F4F6F8;
+  background-color: #dd780c;
+  border-radius: 24px;
+  text-align: center;
+  padding: 6px;
+}
+
+.hero-title{
+  color: #F4F6F8;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.hero-title span{
+  color: #dd780c;
+}
+
+.btn.btn-primary{
+  background-color: #dd780c;
+  color: #F4F6F8;
+  padding: 12px;
+  text-align: center;
+  border-radius: 24px;
+  margin-right: 16px;
+}
+
+.btn.btn-secondary{
+  background-color: #1f3a4a;
+  color: #dd780c;
+  padding: 12px;
+  text-align: center;
+  border-radius: 24px;
+  margin-right: 16px;
+}
+
+.hero-actions{
+  gap: 6px;
+}

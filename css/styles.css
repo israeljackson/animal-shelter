@@ -107,3 +107,93 @@ button{
 .hero-actions{
   gap: 6px;
 }
+
+.container{
+  background-color: #dd780c;
+  color: #F4F6F8;
+  justify-content: center;
+  max-width: 100%;
+  padding: 24px;
+} 
+
+.col-md-3{
+  text-align: center;
+}
+
+.pets-display{
+  background-color: #1f3a4a;
+}
+
+.pets-display h2 {
+  color: #F4F6F8;
+  text-align: center;
+  padding: 24px;
+  padding-top: 48px;
+}
+
+.pets{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+  margin-top: 24px;
+  gap: 24px;
+}
+
+.pet-intro{
+  color: #F4F6F8;
+  text-align: center;
+}
+
+.pet-card{
+  background-color: #dd780c;
+  border-radius: 24px;
+  border: 1px solid #F4F6F8 ;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 6px 6px #F4F6F8;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.pet-card:hover{
+  transform: translateY(-5px);       
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.pet-img{
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 24px 24px 0 0;
+}
+
+.pet-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.pet-desc{
+  padding: 16px;
+  color: #F4F6F8;
+}
+
+.info-btn{
+  color: #F4F6F8;
+  display: inline-block;
+  background-color: #1f3a4a;
+  text-align: center;
+  border-radius: 48px;
+  padding: 12px 24px;
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  white-space: nowrap;
+}
+
+.pet-btn{
+  padding: 28px;
+  text-align: center;
+}
